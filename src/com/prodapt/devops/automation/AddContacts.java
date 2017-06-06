@@ -12,7 +12,7 @@ public class AddContacts {
 
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-		Thread.sleep(3000);
+		Thread.sleep(2000);
 		driver.findElement(By.id("txtUserName")).sendKeys("demo");
 		Thread.sleep(2000);
 		driver.findElement(By.id("txtPassword")).sendKeys("demo");
